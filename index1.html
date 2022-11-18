@@ -6,8 +6,6 @@
     <meta name="Author" content="" />
     <meta name="Keywords" content="" />
     <meta name="Description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
       html,
       body {
@@ -22,20 +20,25 @@
         height: 100%;
       }
       
-      @media only screen and (max-width: 768px) {
-        .center-screen-1{
-          width: 30vh;
-        }
-      }
-
-    @media only screen and (min-width: 768px) {
-      .center-screen-1{
-        width: 20vh;
-      }
-    }
     </style>
   </head>
   <body>
+         <img class="center-screen-1" style="
+    background: red;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* min-height: 100vh; */
+    /* z-index: -1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    width:16vh;
+" src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-1/313418961_670589284578284_4170948707447908457_n.jpg?stp=dst-jpg_p480x480&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=3KtKgrhudVkAX8utlDD&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfCnZuriP9JS--SmRL2H5oV0_RdY62eDCAQDylTZUCFxQg&oe=637AA81A">
     <canvas id="pinkboard"></canvas>
     <script>
       /*
